@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolin Mechanics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="home">
+        <nav>
+            <h1>Bolin Mechanics</h1>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <h2>Reliable Auto & Diesel Repair</h2>
+
+            <p>
+                Quality repair and maintenance services to keep your vehicle
+                running strong.
+            </p>
+
+            <button id="serviceButton">View Services</button>
+        </section>
+    </header>
+
+    <main>
+
+        <section id="services">
+            <h2>Our Services</h2>
+
+            <div class="service-container">
+
+                <article class="service-card">
+                    <h3>General Maintenance</h3>
+                    <p>
+                        Oil changes, fluid checks, filters, inspections,
+                        and other routine maintenance.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Engine Repair</h3>
+                    <p>
+                        Engine diagnostics and repairs for gas and diesel
+                        vehicles.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Brake Service</h3>
+                    <p>
+                        Brake inspections, pad replacement, rotor service,
+                        and repairs.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about-content">
+
+                <div>
+                    <h2>About Bolin Mechanics</h2>
+
+                    <p>
+                        Bolin Mechanics provides dependable vehicle repair
+                        and maintenance. We focus on quality work, honest
+                        service, and helping customers keep their vehicles
+                        running properly.
+                    </p>
+
+                    <button id="colorButton">Change Theme</button>
+                </div>
+
+                <img
+                    src="images/mechanic.png"
+                    alt="Bolin Auto Repair logo"
+                >
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+
+            <p>Send us a message about your vehicle.</p>
+
+            <form id="contactForm">
+
+                <label for="name">Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label for="message">Message</label>
+                <textarea
+                    id="message"
+                    placeholder="What do you need help with?"
+                    required
+                ></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+            <p id="formMessage"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Bolin Mechanics. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
